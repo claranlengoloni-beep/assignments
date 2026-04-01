@@ -8,70 +8,77 @@
 
     <style>
         body {
-            /* Background-color: Anything except white [3 marks] */
-            background-color: #fce4ec; 
+            /* Background: Anything except white [3 marks] */
+            background-color: #fff0f3; 
             margin: 0;
-            padding: 20px;
-            font-family: 'Arial', sans-serif;
-            /* Content --> Centered [3 marks] */
+            padding: 40px 20px;
+            /* Content Centered [3 marks] */
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: center;
+            font-family: 'Segoe UI', sans-serif;
         }
 
         .gallery-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 15px;
-            max-width: 1000px;
+            gap: 25px;
+            max-width: 1200px;
         }
 
-        /* Styling for the 5 containers [5 marks] */
+        /* 5 Containers [5 marks] */
         .product-box {
-            background: white;
-            padding: 10px;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            width: 180px;
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 25px;
+            box-shadow: 0 10px 20px rgba(248, 187, 208, 0.3);
+            width: 200px;
+            text-align: center;
         }
 
         .product-box img {
             width: 100%;
-            border-radius: 10px;
-            display: block;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 18px;
         }
     </style>
 </head>
 <body>
 
-    <h1 style="color: #ad1457; text-decoration: overline; margin-bottom: 30px;">
-        LushLips Collection
+    <h1 style="color: #ad1457; font-family: 'Georgia', serif; letter-spacing: 2px; margin-bottom: 40px; text-transform: uppercase;">
+        LushLips Official Collection
     </h1>
 
     <div class="gallery-container">
         <div class="product-box">
-            <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=200" alt="Scrub">
-            <p>Sugar Scrub</p>
+            <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500" alt="Strawberry Scrub">
+            <p style="color: #ad1457; font-weight: bold; margin-top: 10px;">Strawberry Sugar Scrub</p>
         </div>
+
         <div class="product-box">
-            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=200" alt="Balm">
-            <p>Shea Balm</p>
+            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500" alt="Shea Balm">
+            <p style="color: #ad1457; font-weight: bold; margin-top: 10px;">Organic Shea Balm</p>
         </div>
+
         <div class="product-box">
-            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=200" alt="Oil">
-            <p>Lip Oil</p>
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500" alt="Lip Oil">
+            <p style="color: #ad1457; font-weight: bold; margin-top: 10px;">Vegan Lip Oil</p>
         </div>
+
         <div class="product-box">
-            <img src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=200" alt="Polish">
-            <p>Mint Polish</p>
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=500" alt="Rose Tint">
+            <p style="color: #ad1457; font-weight: bold; margin-top: 10px;">Rose Tint</p>
         </div>
+
         <div class="product-box">
-            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=200" alt="Tint">
-            <p>Rose Tint</p>
+            <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500" alt="Honey Mask">
+            <p style="color: #ad1457; font-weight: bold; margin-top: 10px;">Honey Mask</p>
         </div>
     </div>
 
 </body>
 </html>
+
+     
