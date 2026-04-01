@@ -1,0 +1,46 @@
+/* --- Assignment 4: External CSS Styles --- */
+
+/* Centering the main container on the page */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* Styling the 5 required Image Containers */
+.product-box {
+    width: 220px;
+    background-color: #ffffff; /* White boxes against pink background */
+    border: 2px solid #f8bbd0;
+    border-radius: 20px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+/* Hover effect to make the UI feel modern */
+.product-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(173, 20, 87, 0.2);
+}
+
+/* Image styling within the containers */
+.product-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* Styling the product text */
+.product-box p {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #ad1457;
+    margin: 5px 0;
+}
