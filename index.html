@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LushLips - Assignment 4</title>
+    
+    <link rel="stylesheet" href="style.css">
 
+    <style>
+        body {
+            /* Background-color: Anything except white [3 marks] */
+            background-color: #fce4ec; 
+            margin: 0;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            /* Content --> Centered [3 marks] */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 1000px;
+        }
+
+        /* Styling for the 5 containers [5 marks] */
+        .product-box {
+            background: white;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 180px;
+        }
+
+        .product-box img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: #ad1457; text-decoration: overline; margin-bottom: 30px;">
+        LushLips Collection
+    </h1>
+
+    <div class="gallery-container">
+        <div class="product-box">
+            <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=200" alt="Scrub">
+            <p>Sugar Scrub</p>
+        </div>
+        <div class="product-box">
+            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=200" alt="Balm">
+            <p>Shea Balm</p>
+        </div>
+        <div class="product-box">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=200" alt="Oil">
+            <p>Lip Oil</p>
+        </div>
+        <div class="product-box">
+            <img src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=200" alt="Polish">
+            <p>Mint Polish</p>
+        </div>
+        <div class="product-box">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=200" alt="Tint">
+            <p>Rose Tint</p>
+        </div>
+    </div>
+
+</body>
+</html>
